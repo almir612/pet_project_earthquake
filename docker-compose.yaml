@@ -97,7 +97,7 @@ services:
       - "5432:5432"
 
   minio:
-    image: minio/minio:latest  # или RELEASE.2024-12-02T18-49-55Z
+    image: minio/minio:RELEASE.2025-02-18T16-25-55Z
     restart: always
     volumes:
       - ./data:/data
